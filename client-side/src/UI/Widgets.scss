@@ -1,0 +1,65 @@
+.widgets {
+  position: sticky;
+  top: 80px;
+  flex: 0.3;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  height: fit-content;
+  padding-bottom: 10px;
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    h2 {
+      font-size: 16px;
+      font-size: 400;
+    }
+  }
+  &__article {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    &:hover {
+      background-color: whitesmoke;
+    }
+  }
+  &__articleLeft {
+    color: #0177b7;
+    margin-right: 5px;
+    .MuiSvgIcon-root {
+      font-size: 15px;
+    }
+  }
+  &__articleRight {
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.43rem;
+    h4 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 12px;
+      color: gray;
+    }
+    .feedbtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0rem 1rem;
+      font-size: 1.2rem;
+      border-radius: 59px;
+      gap: 0.2rem;
+      color: gray;
+      border: 2px solid gray;
+      span {
+        color: rgb(98, 98, 98);
+        transform: translateY(-3px);
+        font-size: 1.6rem;
+      }
+    }
+  }
+}

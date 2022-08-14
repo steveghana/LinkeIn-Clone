@@ -1,0 +1,27 @@
+.headerOption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5px;
+  padding-bottom: 4px;
+  color: gray;
+  width: 80px;
+  cursor: pointer;
+}
+
+.headerOption__title {
+  font-size: 12px;
+  pointer-events: none;
+  font-weight: 400;
+}
+
+.headerOption:hover {
+  color: black;
+}
+
+.headerOption__icon {
+  pointer-events: none;
+  object-fit: contain;
+  height: 25px !important;
+  width: 25px !important;
+}

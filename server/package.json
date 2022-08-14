@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Steve",
+  "license": "Tech",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "immer": "^9.0.6",
+    "json": "^11.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.3",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "request-promise": "^4.2.6"
+  }
+}
